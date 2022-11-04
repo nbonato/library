@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Library</h1>
+    <div id="library">
+
+    </div>
+    <button id="add-book">Add book</button>
+    <div id="add-background">
+        <div id="add">
+            <span class="close">&times;</span>
+            <fieldset>
+                <legend>Add book</legend>
+                <form id="add-form">
+                    <div class="form-field">
+                        <label for="title">Title: </label>
+                        <input type="text" name="title" id="title">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="author">Author: </label>
+                        <input type="text" name="author" id="author">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="title">Pages: </label>
+                        <input type="text" name="pages" id="pages">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="read">Read: </label>
+                        <input type="checkbox" name="read" id="read">
+                    </div>
+
+                    <button type="submit" id="add-library">Add book to library</button>
+                    <button type="reset">Clear everything</button>
+
+                </form>
+            </fieldset>
+        </div>
+
+    </div>
+</body>
+</html>
